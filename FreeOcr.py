@@ -3,6 +3,7 @@ import json
 import requests
 import re
 
+# baidu ocr
 def BaiduFreeOcr(img_path):
     with open(file=img_path, mode='rb') as file:
         base64_data = base64.b64encode(file.read())
@@ -90,7 +91,6 @@ def UtOcrB(imgpath):
 
 
 # UtOcr("https://www.keaidian.com/uploads/allimg/190423/23233733_1.jpeg")
-# TencentFreeOcr(r'tpyzm_trans.jpg')
 # UtOcrB(r'123.png')
 
 
